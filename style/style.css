@@ -95,6 +95,84 @@
 
 
 
+
+
+.vrstezivotinja {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.vrstezivotinja h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.vrstezivotinja p {
+    color: #777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Prevent text overflow and force wrapping */
+.vrstezivotinja-col {
+    flex: 1 1 250px;              /* Minimum width so text doesn't squeeze too much */
+    max-width: 350px;             /* Optional: prevents columns from becoming too wide */
+    background: #c3d7fd;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+    /* Prevent overflow */
+    overflow-wrap: break-word;
+    word-wrap: break-word;       
+    hyphens: auto;
+}
+
+.vrstezivotinja-col h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.vrstezivotinja-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+
+/* Tablets: 2 columns */
+@media (max-width: 900px) {
+    .vrstezivotinja-col {
+        flex: 1 1 45%;
+    }
+}
+
+/* Phones: 1 column */
+@media (max-width: 600px) {
+    .vrstezivotinja-col {
+        flex: 1 1 100%;
+        max-width: none;
+    }
+}
+
+
+
+
+
+
+
+/*
 .vrstezivotinja {
     width: 80%;
     margin: auto;
@@ -143,14 +221,14 @@
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-/* Tablet */
+
 @media (max-width: 900px) {
     .vrstezivotinja-col {
         flex: 1 1 calc(50% - 20px);
     }
 }
 
-/* Telefon */
+
 @media (max-width: 600px) {
     .row {
         justify-content: center;
@@ -165,7 +243,7 @@
     }
 }
 
-
+*/
 
 
 .artikli{
@@ -590,6 +668,7 @@ iframe{
 	}
 
 }
+
 
 
 
