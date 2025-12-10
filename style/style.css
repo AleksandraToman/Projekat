@@ -60,10 +60,12 @@
     font-size: 62px;
 }
 .text-box p{
-    margin: 10px 0 40px;
+    /*margin: 10px 0 40px;*/
     font-size: 14px;
     color: #fff;
     text-align: justify;
+	width: 50%;    
+    margin: 0 auto;
 }
 
 
@@ -669,6 +671,7 @@ iframe{
 	}
 
 }
+
 
 
 
