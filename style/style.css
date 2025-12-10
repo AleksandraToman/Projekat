@@ -47,42 +47,48 @@
 .nav-links ul li:hover::after{
     width: 100%;
 }
-.text-box{
+.text-box {
     width: 90%;
     color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 auto;
     text-align: center;
+    min-height: 100vh;
 }
-.text-box h1{
+
+.text-box h1 {
     font-size: 62px;
 }
-.text-box p{
+
+.text-box p {
     margin: 0 auto;
     font-size: 14px;
     color: #fff;
     text-align: justify;
-	width: 50%;    
+    max-width: 600px;  
+    width: 90%;         
 }
+
 
 @media (max-width: 992px) {
-    .text-box p {
-        width: 70%;
+    .text-box h1 {
+        font-size: 48px;
     }
 }
+
 
 @media (max-width: 600px) {
+    .text-box h1 {
+        font-size: 32px;
+    }
     .text-box p {
-        width: 90%;
         font-size: 13px;
     }
-
-    .text-box h1 {
-        font-size: 40px;
-    }
 }
+
 
 
 .ShareAndLikeButtons {
@@ -395,6 +401,7 @@ iframe{
 		padding: 0px;
 	}
 	.text-box p{
+		margin: 0px;
 		font-size: 10px;
 	}
 	.vrstezivotinja{
@@ -609,6 +616,7 @@ iframe{
 	}
 
 }
+
 
 
 
