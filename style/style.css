@@ -127,10 +127,9 @@
     justify-content: center;
 }
 
-/* Prevent text overflow and force wrapping */
 .vrstezivotinja-col {
-    flex: 1 1 250px;              /* Minimum width so text doesn't squeeze too much */
-    max-width: 350px;             /* Optional: prevents columns from becoming too wide */
+    flex: 1 1 250px;              
+    max-width: 350px;           
     background: #c3d7fd;
     border-radius: 10px;
     padding: 20px 12px;
@@ -153,14 +152,12 @@
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-/* Tablets: 2 columns */
 @media (max-width: 900px) {
     .vrstezivotinja-col {
         flex: 1 1 45%;
     }
 }
 
-/* Phones: 1 column */
 @media (max-width: 600px) {
     .vrstezivotinja-col {
         flex: 1 1 100%;
@@ -170,89 +167,15 @@
 
 
 
-
-
-
-
-/*
-.vrstezivotinja {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-
-.vrstezivotinja h1 {
-    font-size: 36px;
-    font-weight: 600;
-}
-
-.vrstezivotinja p {
-    color: #000000;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
-
-.row {
-    margin-top: 5%;
-    display: flex;
-    flex-wrap: wrap; 
-    gap: 20px;       
-    justify-content: space-between;
-}
-
-.vrstezivotinja-col {
-    flex: 1 1 calc(25% - 20px); 
-    background: #c3d7fd;
-    border-radius: 10px;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    min-width: 250px; 
-}
-
-.vrstezivotinja-col h3 {
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
-
-.vrstezivotinja-col:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-
-@media (max-width: 900px) {
-    .vrstezivotinja-col {
-        flex: 1 1 calc(50% - 20px);
-    }
-}
-
-
-@media (max-width: 600px) {
-    .row {
-        justify-content: center;
-    }
-
-    .vrstezivotinja-col {
-        flex: 1 1 100%;
-    }
-    
-    .vrstezivotinja h1 {
-        font-size: 28px;
-    }
-}
-
-*/
-
-
 .artikli{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 30px;
+}
+.artikli h2{
+    font-size: 36px;
+    font-weight: 600;
 }
 .artikli .artikli-col{
     flex-basis: 22%;
@@ -670,6 +593,7 @@ iframe{
 	}
 
 }
+
 
 
 
