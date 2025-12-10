@@ -67,6 +67,23 @@
 	width: 50%;    
 }
 
+@media (max-width: 992px) {
+    .text-box p {
+        width: 70%;
+    }
+}
+
+@media (max-width: 600px) {
+    .text-box p {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    .text-box h1 {
+        font-size: 40px;
+    }
+}
+
 
 .ShareAndLikeButtons {
   display: flex;
@@ -593,6 +610,7 @@ iframe{
 	}
 
 }
+
 
 
 
