@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /images/
+
 
 sitemap:https://aleksandratoman.github.io/Projekat/sitemap.xml
