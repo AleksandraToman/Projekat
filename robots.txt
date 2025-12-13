@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-sitemap:https://aleksandratoman.github.io/Projekat/sitemap.xml
-
